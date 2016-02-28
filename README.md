@@ -36,7 +36,8 @@ This is a small script written in python. It basically acts as an interface betw
           bancho_dump: 'Channel_ID'
 
 5. Once you have filled up the `config.yaml` file, save it and double-click on `run.bat`.
-6. Enjoy
+
+P.S. If you are having problem getting the channel_id then go to this section:
 
 ###Commands List
 |Command|Information|
@@ -54,3 +55,23 @@ For example:
         ?hello ->will be sent
         but,
         hello ->will NOT be sent
+
+###How to get bancho_dump Channel_ID
+* Create a new server or channel(You can name it anything. I named it lapzbot in this case). **Right click** on the channel and click **Copy Link**
+
+![](http://i.imgur.com/XODoBcp.png)
+
+
+* Open a text editor or a browser and paste this link ( Ctrl + V )
+
+![](http://i.imgur.com/JMQ67Rx.png)
+
+
+* Once you paste this link select the digits after the last `/` and copy it ( Ctrl + C )
+
+![](http://i.imgur.com/TpKl8ba.png)
+
+
+* Paste this value in the `config.yaml` file
+
+<b><i>Don't alter config.yaml file in any other way.</i></b>
