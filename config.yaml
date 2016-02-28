@@ -1,0 +1,24 @@
+# CONFIGURATION file for irc script.
+# DO NOT change the variables in this file. Only change the values.
+
+DISCORD:
+  # Enter the discord login credentials: email and password.
+  # Make sure to use single quotes
+  # The admin_id is your discord user_id. This is used as a safeguard so that only you are able to send messages.
+
+  email: 'jassn2go@hotmail.com'
+  password: 'rollin123'
+  admin_id: '87433250175221760'
+OSU:
+  # You can get these details from this link: https://osu.ppy.sh/p/irc
+  # Make sure to enter the details as is or validation will fail
+  # Make sure to use single quotes
+
+  Username: 'Lapoozza'
+  Server Password: '36cfb7ce'
+CHANNEL:
+  # Enter the channel_id of a channel/server that you want to use
+  # Remember all the message to/from bancho will be dumped here
+  # It is adviced that you generally make a new server or a private channel for this purpose
+
+  bancho_dump: '153173152770293760'
