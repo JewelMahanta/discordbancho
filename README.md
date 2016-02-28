@@ -1,45 +1,25 @@
 # discordbancho
 
-This is a small script written in python. It basically acts as an interface between osu! Bancho server and Discord app. To use it, follow these simple instructions:
+This is a small bot script written in python. It basically acts as an interface between osu! Bancho server and Discord app. To use it, follow these simple instructions:
 
-1. Create a new Discord account : https://discordapp.com/
+### Requirements
+1. [Python 3.5+](https://www.python.org/downloads/release/python-351/)
 
-2. Goto https://osu.ppy.sh/p/irc and get you `Username` and `Server Password`
-
-3. Download a zip of this repository
-
-4. Edit the `config.yaml` file. This file is inside the zip that you downloaded in step 3.
-
-        # CONFIGURATION file for irc script.
-        # DO NOT change the variables in this file. Only change the values.
-
-        DISCORD:
-          # Enter the discord login credentials: email and password.
-          # Make sure to use single quotes
-          # The admin_id is your discord user_id. This is used as a safeguard so that only you are able to send messages.
-        
-          email: 'discord_email'
-          password: 'discord_password'
-          admin_id: 'discord_user_id'
-        OSU:
-          # You can get these details from this link: https://osu.ppy.sh/p/irc
-          # Make sure to enter the details as is or validation will fail
-          # Make sure to use single quotes
-        
-          Username: 'Your Username'
-          Server Password: 'Your Server Password'
-        CHANNEL:
-          # Enter the channel_id of a channel/server that you want to use
-          # Remember all the message to/from bancho will be dumped here
-          # It is adviced that you generally make a new server or a private channel for this purpose
-        
-          bancho_dump: 'Channel_ID'
-
-5. Once you have filled up the `config.yaml` file, save it and double-click on `run.bat`.
+### Steps
+1. Download a zip of this repository and extract the contents to a folder.
+2. Install the requirements. To do that:
+  * Goto the folder where you extracted the files in step 1.
+  * Open a command prompt in that folder by using **shift + right-click** and select **Open command window here**
+  * Type this in the command window `pip install -r requirements.txt`
+ 
+3. Create a new Discord account : https://discordapp.com/
+4. Goto https://osu.ppy.sh/p/irc and get you `Username` and `Server Password`
+5. Edit the `config.yaml` file. This file is inside the zip that you downloaded in step 3.
+6. Once you have filled up the `config.yaml` file, save it and double-click on `run.bat`.
 
 P.S. If you are having problem getting the channel_id then [go to this section](https://github.com/lapoozza/discordbancho/blob/master/README.md#how-to-get-bancho_dump-channel_id)
 
-###Commands List
+## Commands List
 |Command|Information|
 |-------|-----------|
 |`!bancho`|Logs you into the osu!bancho server.|
@@ -56,22 +36,23 @@ For example:
         but,
         hello ->will NOT be sent
 
-###How to get bancho_dump Channel_ID
+## How to get bancho_dump Channel_ID
 * Create a new server or channel(You can name it anything. I named it lapzbot in this case). **Right click** on the channel and click **Copy Link**
 
 ![](http://i.imgur.com/XODoBcp.png)
 
-
 * Open a text editor or a browser and paste this link ( Ctrl + V )
-
+ 
 ![](http://i.imgur.com/JMQ67Rx.png)
-
 
 * Once you paste this link select the digits after the last `/` and copy it ( Ctrl + C )
 
 ![](http://i.imgur.com/TpKl8ba.png)
 
-
 * Paste this value in the `config.yaml` file
 
-**Don't alter config.yaml file in any other way.**
+**MAKE SURE that both - your account and irc bots account are on the same server where the bancho_dump channel is present.**
+
+##Additional Information
+* If you encounter any bugs, feel free to report it using the github issue tracker
+* If you are encountering any issues, try reinstalling the requirements.
