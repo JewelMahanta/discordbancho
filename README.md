@@ -29,6 +29,8 @@ This is a small bot script written in Python. It basically acts as an interface 
 |`!setch channel/user`|Sets the channel or user for your texts.|
 |`!ch`|The channel or user your texts are currently going to.|
 |`!list`|The available list of channels.|
+|`!id`|Shows your discord id.|
+|`!help`|Shows the list of available commands|
 
 **P.S.** to send messages, the message must be tagged with a initial `?` mark to be sent.
 For example:
