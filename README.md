@@ -1,6 +1,6 @@
 # discordbancho
 
-This is a small bot script written in python. It basically acts as an interface between osu! Bancho server and Discord app. To use it, follow these simple instructions:
+This is a small bot script written in Python. It basically acts as an interface between osu! Bancho server and Discord app. You can use it send message, recieve message, join channel etc. all from the comfort of you Discord window. To use it, follow these simple instructions:
 
 ### Requirements
 1. [Python 3.5+](https://www.python.org/downloads/release/python-351/)
@@ -16,11 +16,9 @@ This is a small bot script written in python. It basically acts as an interface 
 
 4. Goto https://osu.ppy.sh/p/irc and get you `Username` and `Server Password`
 
-5. Edit the `config.yaml` file. This file is inside the zip that you downloaded in step 1.
+5. Edit the `config.yaml` file. This file is inside the zip that you downloaded in step 1. (You can use any text editor to edit this file.) To get your `admin_id`, run the bot once and type `!id`. If you are having problem getting the channel_id then [go to this section](https://github.com/lapoozza/discordbancho/blob/master/README.md#how-to-get-bancho_dump-channel_id).
 
 6. Once you have filled up the `config.yaml` file, save it and double-click on `run.bat`.
-
-P.S. If you are having problem getting the channel_id then [go to this section](https://github.com/lapoozza/discordbancho/blob/master/README.md#how-to-get-bancho_dump-channel_id)
 
 ## Commands List
 |Command|Information|
