@@ -6,19 +6,19 @@ DISCORD:
   # Make sure to use single quotes
   # The admin_id is your discord user_id. This is used as a safeguard so that only you are able to send messages.
 
-  email: 'jassn2go@hotmail.com'
-  password: 'rollin123'
-  admin_id: '87433250175221760'
+  email: 'discord_email'
+  password: 'discord_password'
+  admin_id: 'discord_user_id'
 OSU:
   # You can get these details from this link: https://osu.ppy.sh/p/irc
   # Make sure to enter the details as is or validation will fail
   # Make sure to use single quotes
 
-  Username: 'Lapoozza'
-  Server Password: '36cfb7ce'
+  Username: 'Your Username'
+  Server Password: 'Your Server Password'
 CHANNEL:
   # Enter the channel_id of a channel/server that you want to use
   # Remember all the message to/from bancho will be dumped here
   # It is adviced that you generally make a new server or a private channel for this purpose
 
-  bancho_dump: '153173152770293760'
+  bancho_dump: 'Channel_ID'
