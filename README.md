@@ -37,7 +37,7 @@ This is a small script written in python. It basically acts as an interface betw
 
 5. Once you have filled up the `config.yaml` file, save it and double-click on `run.bat`.
 
-P.S. If you are having problem getting the channel_id then go to this section:
+P.S. If you are having problem getting the channel_id then [go to this section](https://github.com/lapoozza/discordbancho/blob/master/README.md#how-to-get-bancho_dump-channel_id)
 
 ###Commands List
 |Command|Information|
@@ -74,4 +74,4 @@ For example:
 
 * Paste this value in the `config.yaml` file
 
-<b><i>Don't alter config.yaml file in any other way.</i></b>
+**Don't alter config.yaml file in any other way.**
