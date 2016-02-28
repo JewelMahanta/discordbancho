@@ -13,8 +13,11 @@ This is a small bot script written in python. It basically acts as an interface 
   * Type this in the command window `pip install -r requirements.txt`
  
 3. Create a new Discord account : https://discordapp.com/
+
 4. Goto https://osu.ppy.sh/p/irc and get you `Username` and `Server Password`
-5. Edit the `config.yaml` file. This file is inside the zip that you downloaded in step 3.
+
+5. Edit the `config.yaml` file. This file is inside the zip that you downloaded in step 1.
+
 6. Once you have filled up the `config.yaml` file, save it and double-click on `run.bat`.
 
 P.S. If you are having problem getting the channel_id then [go to this section](https://github.com/lapoozza/discordbancho/blob/master/README.md#how-to-get-bancho_dump-channel_id)
