@@ -1,6 +1,6 @@
 # discordbancho
 
-This is a small bot script written in Python. It basically acts as an interface between osu! Bancho server and Discord app. You can use it send message, recieve message, join channel etc. all from the comfort of you Discord window. To use it, follow these simple instructions:
+This is a small bot script written in Python. It basically acts as an interface between osu! Bancho server and Discord app. You can use it send message, recieve message, join channel etc. all from the comfort of your Discord window. To use it, follow these simple instructions:
 
 ### Requirements
 1. [Python 3.5+](https://www.python.org/downloads/release/python-351/)
