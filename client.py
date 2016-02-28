@@ -72,6 +72,10 @@ class Bot(discord.Client):
         if message.author == self.user:
             return
 
+        if message.content.startswith('!id'):
+            await self.send_message(message.channel, '{} your id is: {}'
+                                    .format(message.author.mention, message.author.id))
+
         if message.content.startswith('!help'):
             await self.send_message(message.channel, 'The available commands are:\n'
                                                      '`!bancho` Logs you into the osu!bancho server.\n'
@@ -79,7 +83,8 @@ class Bot(discord.Client):
                                                      '`!leave #channel` Leaves a specified channel.\n'
                                                      '`!setch channel/user` Sets the channel or user for your texts.\n'
                                                      '`!ch` The channel or user your texts are currently going to.\n'
-                                                     '`!list` The available list of channels.')
+                                                     '`!list` The available list of channels.\n'
+                                                     '`!id` Shows your discord id.')
 
         if message.content.startswith("?"):
             """
